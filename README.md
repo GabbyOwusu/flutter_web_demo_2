@@ -2,9 +2,9 @@
 
 A new Flutter project.
 
-# Preview
+## Preview
 
-![alt text](images/Screenshot(9).jpg)
+![alt text](https://github.com/GabbyOwusu/flutter_web_demo_2/images/Screenshot(9).jpg)
 
 ## Getting Started
 
