@@ -1,4 +1,3 @@
-import 'dart:html';
 import 'dart:ui';
 
 import 'package:brand_web_demo/widgets/appbar_title.dart';
@@ -15,6 +14,7 @@ class _MyHomePageState extends State<MyHomePage> {
     'images/asset1.png',
     'images/asset2.jpg',
     'images/asset3.jpg',
+    'images/asset4.jpg',
   ];
 
   PageController _controller;
@@ -142,7 +142,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           });
                         },
                         controller: _controller,
-                        itemCount: 3,
+                        itemCount: _imageList.length,
                         itemBuilder: (context, index) {
                           return SizedBox(
                             width: 1000,
