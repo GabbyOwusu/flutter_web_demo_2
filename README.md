@@ -6,6 +6,10 @@ A new Flutter project.
 
 ![alt text](https://github.com/GabbyOwusu/flutter_web_demo_2/blob/main/images/Screenshot%20(9).png)
 
+## Original Design
+
+![alt text](https://dribbble.com/shots/13625410-Fear-Of-God-Collection/attachments/5230038?mode=media)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
