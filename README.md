@@ -8,7 +8,7 @@ A new Flutter project.
 
 ## Original Design
 
-![alt text](https://dribbble.com/shots/13625410-Fear-Of-God-Collection/attachments/5230038?mode=media)
+Originally Designed by [After glow](https://dribbble.com/shots/13625410-Fear-Of-God-Collection/attachments/5230038?mode=media) on Dribble
 
 ## Getting Started
 
