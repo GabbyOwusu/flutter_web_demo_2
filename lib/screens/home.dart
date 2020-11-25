@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:brand_web_demo/widgets/appbar_title.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
@@ -157,7 +155,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     Positioned(
                       bottom: 0,
                       child: Container(
-                        padding: EdgeInsets.only(top: 30, left: 30, right: 30),
+                        padding: EdgeInsets.only(
+                          top: 30,
+                          left: 30,
+                          right: 30,
+                        ),
                         height: 330,
                         width: 230,
                         color: Colors.white,
@@ -168,9 +170,10 @@ class _MyHomePageState extends State<MyHomePage> {
                               Row(
                                 children: [
                                   Text(
-                                    'Top Sales From Look',
+                                    'TOP SALES FROM LOOK',
                                     style: TextStyle(
                                       fontWeight: FontWeight.w600,
+                                      fontSize: 13,
                                     ),
                                   ),
                                   Spacer(),
@@ -185,13 +188,13 @@ class _MyHomePageState extends State<MyHomePage> {
                                 image: 'images/1.png',
                                 label:
                                     'FEAR OF GOD\nLEATHER RIDING\nJACKET TAN',
-                                price: '\$1400',
+                                price: '\$ 1400',
                               ),
                               _buildDivider(),
                               items(
                                 image: 'images/2.png',
                                 label: 'EVERYDAY FULL\nZIP HOODY\nGOD GREY',
-                                price: '\$1400',
+                                price: '\$ 1400',
                               ),
                             ],
                           ),
@@ -272,6 +275,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   style: TextStyle(
                     fontSize: 70,
                     fontFamily: 'Questa',
+                    fontWeight: FontWeight.w400,
                   ),
                 ),
               ),
